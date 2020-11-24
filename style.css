@@ -1,0 +1,50 @@
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 5.5rem;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    opacity: .5;
+    color: rgb(8, 48, 8);
+}
+
+#top-header {
+    display: flex;
+    flex-direction: column;
+}
+
+#input {
+    margin: 1.5rem;
+    margin-bottom: 0px;
+    padding: 1rem;
+    border: dashed rgb(8, 48, 8) .1rem;
+    border-radius: 7px;
+}
+
+#input-box {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    list-style-type: none;
+    font-size: 2.2rem;
+}
